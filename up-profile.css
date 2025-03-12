@@ -1,0 +1,75 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b2dfac;
+}
+
+/* Main Container */
+.container {
+    
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: azure;
+    box-shadow: 10px 10px 10px 5px rgba(89, 107, 86, 0.952);
+    border-radius: 8px;
+}
+
+/* Heading Style */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Form Styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label Styles */
+label {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+}
+
+/* Input and Select Box Styles */
+input {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 95%;
+}
+
+/* Button Styles */
+button {
+    padding: 12px 20px;
+    background-color: #2df126;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #0f8500;
+}
+
+/* Responsive Design for Small Screens */
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+
+    button {
+        font-size: 14px;
+        padding: 10px 16px;
+    }
+}
